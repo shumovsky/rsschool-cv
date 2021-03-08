@@ -17,7 +17,6 @@
            - Adaptive layout;
            - English (В1);
            - Polish (А1+).
-           ---
 
 ## My project: https://shumovsky.github.io/bouncy/
 
