@@ -1,84 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
+section {
+    max-width: 1024px;
+    margin: 0 auto;
+}
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>shumovsky-cv</title>
-</head>
+ul {
+    list-style: none;
+    padding: 0;
+}
 
-<body>
-    <section class="main">
-        <div class="wrapper contact__wrapper">
-            <h1>Dmity Shumovsky.</h1>
-        </div>
-        <div><img src="./IMG_8706.jpg" alt="foto" /></div>
-        <div class="contact">
-            <ul class="contact_list">
-                <li>Phone: <a href="tel:+375291498560"> +375291498560</a></li>
-                <li>
-                    Linkedln:
-                    <a href=" linkedin.com/in/dmitry-shumovsky97407b198 ">
-              Dmitry Shumovsky</a
-            >
-          </li>
-          <li>
-            Email:
-            <a href="mailto:d.shumovsky@gmail.com ">d.shumovsky@gmail.com</a>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="about">
-        <div class="wrapper about__wrapper">
-            <p class="about__content">
-                Hello. I have graduated a course «Website Development using HTML, CSS and JavaScript" in the «IT-Academy». I’m looking for the position of Junior Front-end Developer to continue an improvement in this sphere.
-            </p>
-            <h3 class="about__title">My skills:</h3>
-            <ul class="about_list">
-                <li>HTML;</li>
-                <li>CSS;</li>
-                <li>JavaScript (basis);</li>
-                <li>Bootstrap;</li>
-                <li>BEМ;</li>
-                <li>Adaptive layout;</li>
-                <li>English (В1);</li>
-                <li>Polish (А1+).</li>
-            </ul>
-            <div>
-             <h3 class="project">My project:</h3>
-                 <a href="https://shumovsky.github.io/bouncy/">Bouncy</a>,
+a {
+    text-decoration: none;
+}
 
-                <a href="https://shumovsky.github.io/Singolo-2.0v/"> Singolo</a>,
+h1 {
+    font-size: 42px;
+}
 
-                <a href="https://shumovsky.github.io/Fridays-coding/">Friday-coding</a>
-            </div>
-      </div>
-    </section>
-    <section class="education">
-      <div class="wrapper education__wrapper">
-        <h2 class="education__title">education</h2>
-        <p class="education__content">The education center «IT-Academy».</p>
-        <p class="education__content">
-          November 2019- January 2020 The course «Website Development using
-          HTML, CSS and JavaScript"
-        </p>
-        <p class="education__content">
-          Institute of entrepreneurship and parliamentarism
-        </p>
-        <p class="education__content">
-          June 2012 Economics and Management in industry
-        </p>
-        <p class="education__content">Language school «Streamline»</p>
-        <p class="education__content">June –May 2012 English course</p>
-        <p class="education__content">
-          Vitebsk state Polytechnic College Marketing in the radioelectronic
-          industry
-        </p>
-        <p class="education__content">June 2003 Marketing</p>
-      </div>
-    </section>
-  </body>
-</html>
+.contact_list li {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact_list li a {
+    margin-left: 10px;
+    color: #152fe8;
+    font-weight: normal;
+}
+
+.about__content {
+    font-size: 28px;
+}
+
+.about__title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.about_list li {
+    font-size: 24px;
+}
+
+.project {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.project a {
+    font-weight: normal;
+    color: #152fe8;
+}
+
+.education {
+    margin-bottom: 100px;
+}
+
+.education__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.education__content:nth-child(even) {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15px;
+}
