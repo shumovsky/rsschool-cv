@@ -5,6 +5,10 @@ https://shumovsky.github.io/rsschool-cv/
 
 
 ![1](https://user-images.githubusercontent.com/58679945/110482178-6da9f900-80f9-11eb-8271-63da4dc5c533.jpg);
+
+
+
+
 Верстка валидная и семантическая. 
 Используются заголовки h1-h6. 
 Используются css-стили.
