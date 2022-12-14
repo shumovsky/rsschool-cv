@@ -4,7 +4,7 @@
 ### Email:   d.shumovsky@gmail.com 
 ### Hello.  I have graduated a course «Website Development using HTML, CSS and JavaScript" in the «IT-Academy». I’m looking for the position of Junior Front-end Developer to continue an improvement in this sphere. 
 ## My skills:
-           -HTML;
+           - HTML;
            - CSS;
            - JavaScript (basis); 
            - Bootstrap; -BEМ; 
